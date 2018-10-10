@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Bai+Jamjuree|Quicksand|Source+Sans+Pro');
+
+body {
+    background-color: #2C3E50;
+
+}
+
+header {
+    background-color: #2980B9;
+    width: 100%;
+    padding: 2% 0;
+    padding-top: 5%;
+    font-size: 1.4VW;
+    text-align: center;
+    border-bottom: solid .25em #DB9E36;
+}
+
+footer {
+    background-color: #2980B9;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-top: solid .5em #DB9E36;
+}
+
+footer a {
+    color: #DB9E36;
+}
+
+footer a:hover {
+    color: #ECF0F1;
+}
+
+footer p {
+    font-size: 1em;
+    padding-left: 0;
+    color: #ECF0F1;
+}
+
+h1 {
+    color: #DB9E36;
+    text-align: center;
+    font-family: "Anton";
+}
+
+h2 {
+    color: #ECF0F1;
+    background-color: #3498DB;
+    font-size: 1.4VW;
+    clear: both;
+    padding: 1% 0;
+    padding-left: 5%;
+    font-family: "Source Sans Pro";
+    border-bottom: solid #DB9E36;
+}
+
+p {
+    font-size: 1VW;
+    color: #2C3E50;
+    padding: 1%, 0;
+    padding-left: 5%;
+    font-family: "Quicksand";
+    margin-bottom: 2%;
+}
+
+ul li {
+    background-color: black;
+}
+
+iframe {
+    margin: 0 25%;
+}
+
+a {
+    text-decoration: none;
+    color: #2980B9;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: "Source Sans Pro";
+}
+
+a:hover {
+    color: #DB9E36;
+}
+
+
+/* Gallery */
+
+.gallerybox {
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 5% 6.5%;
+    
+}
+
+.gallerybox p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.gallerybox img {
+    width: 95%;
+}
+        
+
+
+/* Table */
+
+table {
+    margin: auto;
+    border: 5px solid #DB9E36;
+    width: 40%;
+    height: 30%;
+    border-spacing: 0;
+    font-family: "Bai Jamjuree";
+}
+
+td, th {
+    border-style: none;
+    padding: 1%;
+}
+
+td {
+    color: #2C3E50;
+}
+
+tr:nth-of-type(even) {
+        background-color: #ECF0F1;
+    }
+    
+    tr:first-of-type {
+        background-color: #2980B9;
+        color: #ECF0F1;
+    }
+
+
+
+/* Classes & ID's */
+
+.wrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ECF0F1;
+}
+
+.page1 {
+    width: 100%;
+    height: 100VH;
+}
+
+.page2 {
+    width: 100%;
+    height: 140VH;
+}
+
+.page3 {
+    width: 100%;
+    height: 100VH;
+}
+
+.page4 {
+    width: 100%;
+    height: 100VH;
+    display: block;
+}
+
+.page4 a {
+    font-size: 1.5em;
+}
+
+.page5 {
+    width: 100%;
+    height: 125VH;
+    display: none;
+}
+
+.introbox {
+    width: 31.3%;
+    float: left;
+    font-size: 1em;
+    padding: 1%;
+}
+
+.textbox {
+    clear: both;
+    font-size: 1em;
+    padding: 1%;
+    text-align: center;
+}
+
+.mobilebox {
+    float: left;
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+/* Photos */
+
+.hero {
+    background-color: black;
+    background-image: url(Images/Campus.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 4%;
+}
+
+.p1 {
+    background-color: black;
+    background-image: url(Images/SCI%201.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 30%;
+    float: left;
+    margin: 0 4%;
+    border: solid #2C3E50;
+}
+
+.p2 {
+    background-color: black;
+    background-image: url(Images/SCI%202.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 30%;
+    float: left;
+    margin: 0 5%;
+    border: solid #2C3E50;
+}
+
+.p3 {
+    background-color: black;
+    background-image: url(Images/B2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 40%;
+    margin: 3% 25%;
+}
+
+.p4 {
+    background-color: black;
+    background-image: url(Images/PE%20alt.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin: 0 5%;
+    clear: both;
+}
+
+.p5 {
+    background-color: black;
+    background-image: url(Images/L2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 40%;
+    float: left;
+    margin: 0 5%;
+}
+
+.p6 {
+    background-color: black;
+    background-image: url(Images/Campus%20Alt.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 50%;
+    clear: both;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Navbar */
+
+.navbar {
+    overflow: hidden;
+    background-color: #2C3E50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1% 5%;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #ECF0F1;
+    color: #DB9E36;
+}
+
+
+
+
+
+/* Tablet */
+
+@media only screen and (max-width: 70em) {
+    .wrapper {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page4 {
+        width: 0%;
+        display: none;
+    }
+    
+    .page5 {
+        display: block;
+    }
+    
+    header {
+        height: 7em;
+    }
+    
+    h1{
+        font-size: 3em;
+    }
+
+    h2 {
+        height: 3%;
+        font-size: 1.5em;
+    }
+    
+    p {
+        font-size: 1em
+    }
+    
+    footer {
+        padding-top: 0;
+    }
+    
+    .page2 {
+        height: 100VH;
+    }
+    
+    .hero {
+        height: 28%;
+    }
+    
+    .p1 {
+        height: 25%;
+        margin 0;
+    }
+    
+    .p2 {
+        height: 25%;
+        background-image: url(Images/L2.JPG);
+        margin: 0;
+    }
+    
+    p {
+        padding: 3% 0;
+    }
+    
+    .introbox {
+        margin: 3% 0;
+        text-align: center;
+    }
+    
+    .p3 {
+        height: 50%;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    .p6 {
+        height: 25%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    table {
+        float: right;
+        margin: 0 10% 5%;
+    }
+    
+    .page3 p {
+        padding: 2% 10%;
+    }
+    
+    .page5 p{
+        margin: 10% 0;
+    }
+    
+    .gallerybox {
+        width: 30%;
+        height: 25%;
+        margin: 3% 8.5%;
+    }
+    
+    .mobilebox {
+        margin: 0;
+        width: 40%;
+        padding: 0 5%;
+    }
+    
+}
+
+
+/* Mobile */
+    
+@media only screen and (max-width: 40em) {
+    .wrapper {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    header {
+        height: 10em;
+    }
+    
+    header h1{
+        font-size: 4em;
+    }
+    
+    .introbox {
+        margin: 15% 0;
+    }
+    
+    .p1 {
+        background-image: url(Images/SCI%202.JPG);
+        background-size: cover;   
+        margin: 3%
+    }
+    
+    .p2{
+        margin: 3%
+    }
+    
+    .page3 {
+        height: 170VH;
+    }
+    
+    .page3 p {
+        overflow: hidden;
+    }
+    
+    .p3 {
+        height: 20%;
+    }
+    
+    table {
+        height: 20%
+    }
+    
+    .page5 {
+        height: 230VH;
+    }
+    
+    .mobilebox {
+        width: 70%;
+        height: 5%;
+        margin: 0 5% 10%;
+        padding: 0 10%;
+    }
+    
+    .p6 {
+        width: 100%;
+        height: 15%;
+    }
+    
+    .gallerybox {
+        width: 60%;
+        margin: 5% 20% 15%;
+    }
+    
+    
+}
